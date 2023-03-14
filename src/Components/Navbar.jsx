@@ -12,8 +12,7 @@ const Navbar = () => {
     <NavLink className="link" to="/about"> About Us</NavLink>
     <NavLink className="link" to="/cart"> Cart
     :{cartData.length ? cartData.length:0}</NavLink>
-    
-    </nav>
+</nav>
     </>
   )
 }

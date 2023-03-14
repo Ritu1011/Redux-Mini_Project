@@ -16,7 +16,7 @@ console.log(cartData)
          return acc+curr
         },0)
     setTotal(total)
-  }, [cartData]);
+  }, []);
 
   const handleIncrement=(price)=>{
         setTotal(total+price)
